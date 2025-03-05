@@ -1,0 +1,73 @@
+:root{
+    --mbox-height: 50vh;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /*background: #000000;*/
+    font-family: Terminus;
+    background: #0000aa;
+}
+
+h1{
+    text-align: left;
+    text-decoration:underline;
+    padding: 0.5%;
+    background: #0000aa;
+    color: #ffffff;
+}
+h2{
+    background: #a9a9a9;
+    text-align: center;
+    padding-left: -55%;
+    text-emphasis: bold;
+}
+
+box{
+    /*padding: 5%;
+    */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: #0000aa;
+    padding-top: 20vh;
+}
+.mbox{
+    background: #a9a9a9;
+    height: var(--mbox-height);
+    width: 50vw;
+    margin-left: -56vw;
+    
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.bord{
+    background: #a9a9a9;
+    width: 49.5vw;
+    height: calc(var(--mbox-height) - 6vh);
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+.message, p{
+    text-align: center;
+    background: #a9a9a9;
+    color: #000000;
+}
+
+.sbox{
+    margin-left: 0vw;
+    margin-top: 6vh;
+    
+    background: #000000;
+    height: var(--mbox-height);
+    width: 50vw;
+    padding: 9px;
+}
